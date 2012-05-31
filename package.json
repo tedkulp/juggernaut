@@ -17,7 +17,7 @@
 , "dependencies" :
   { "socket.io" : "=0.9.6"
   , "redis" : "=0.7.2"
-  , "node-static-maccman" : "~0.5.3"
+  , "node-static" : "~0.5.9"
   , "optimist": "~0.2.3"
   }
 }
