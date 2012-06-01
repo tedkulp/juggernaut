@@ -1,3 +1,15 @@
+#Fork information
+
+This is a custom fork for a specific web app. 
+
+It currently has the dependecies upgraded and modified:
+* removed node-static-maccman
+* socket.io 0.9.6
+* redis 0.7.2
+
+The static node file server has been removed because we include the socket.io client code on the web server.
+
+
 #Juggernaut
 
 Juggernaut gives you a realtime connection between your servers and client browsers. 
