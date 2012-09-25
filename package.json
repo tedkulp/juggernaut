@@ -16,7 +16,7 @@
 , "bin" : { "juggernaut" : "./server.js" }
 , "dependencies" :
   { "socket.io" : "=0.9.10"
-  , "redis" : "=0.7.2"
+  , "redis" : "=0.8.1"
   , "optimist": "~0.2.3"
   }
 }
