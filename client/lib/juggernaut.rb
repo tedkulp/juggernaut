@@ -23,6 +23,14 @@ module Juggernaut
     options[:url] = url
   end
   
+  def redis_host=(host)           
+    options[:host] = host
+  end
+  
+  def redis_port=(port)
+    options[:port] = port
+  end
+  
   def publish(channels, data, options = {})
     message = ({:channels => Array(channels).uniq, :data => data}).merge(options)
     redis.publish(key, message.to_json) 
