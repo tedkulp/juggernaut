@@ -12,6 +12,8 @@ The static node file server has been removed because we include the socket.io cl
 
 #Juggernaut
 
+## Juggernaut has been **deprecated**! Read why [here](http://blog.alexmaccaw.com/killing-a-library).
+
 Juggernaut gives you a realtime connection between your servers and client browsers. 
 You can literally push data to clients using your web application, which lets you do awesome things like multiplayer gaming, chat, group collaboration and more. 
 
